@@ -1,6 +1,6 @@
 <h1>Trade Market</h1>
 
-<p>Domain description: Supermarkets sell goods of various categories. The customers can shop anonymously or by logging in. When buying, a receipt is created with a list of goods purchased in a particular market.</p>
+<p>Domain description: Supermarkets sell goods of various categories. The customers can shop, when buying, a receipt is created with a list of goods purchased in a particular market.</p>
 
 <h2>Project Scheme</h2>
 
