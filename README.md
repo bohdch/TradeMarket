@@ -1,23 +1,22 @@
-# Trade Market - BPL
+<h1>Trade Market</h1>
 
+<p>Domain description: Supermarkets sell goods of various categories. The customers can shop anonymously or by logging in. When buying, a receipt is created with a list of goods purchased in a particular market.</p>
 
-## Domain description
+<h2>Project Scheme</h2>
 
-Supermarkets sell goods of various categories. The customers can shop anonymously or by logging in. When buying, a receipt is created with a list of goods purchased in a particular market.
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <div>
+    <p style="text-align: center;"><em>Data Access Layer (DAL)</em></p>
+    <img src="https://github.com/bohdch/TradeMarket/assets/118467498/aa12e9cd-4db4-47eb-9646-d3a8b9d1296f" width="600">
+  </div>
+  <div>
+     <p style="text-align: center;"><em>Business Logic Layer (BLL)</em></p>
+    <img src="https://github.com/bohdch/TradeMarket/assets/118467498/66df39f4-5c7e-4b00-8a5f-9de95462f361" width="400">
+  </div>
+</div>
 
+<h3>Presentation Layer (API Routes)</h3>
 
-## Task
-
-Make a Web Application (Presentation Layer, PL) for the electronic system **"Trade Market"** with a Three-Layer Architecture as an asp.net application named WebAPI with functionality according route list bellow. Data Access Layer (DAL) is used from the Trade Market task – DAL, Business Logic Layer (BLL) is used from the Trade Market task – BLL.
-The structure of the PL project in the final form:
-
-- The folder **Controllers** contains Web API classes of controllers. Implement controller methods **ProductsController**. Develop and implement classes of controllers **Customers**, **Receipt**, **Statistic** according to the list of routes.
-- The project root folder contains file **appsettings.Development.json**.  Make a connection string named **“Market”**.
-- The project root folder contains **Startup.cs** file. For the level DAL and BLL make DI at the **ConfigureServices** method in **Startup** class. Configure the connection string named **“Market”**. Configure automapper.
-- Use **Swagger** to self-document the Web Api.
-
-
-Route List:
 ```
 GET/api/products – all products
 GET/api/products/{id} – a selected products
