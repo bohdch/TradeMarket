@@ -15,7 +15,7 @@
   </div>
 </div>
 
-<h3>Presentation Layer (API Routes)</h3>
+<h3>API Routes</h3>
 
 ```
 GET/api/products – all products
